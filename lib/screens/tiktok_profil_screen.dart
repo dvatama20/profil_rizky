@@ -82,7 +82,7 @@ class _TiktokProfilScreenState extends State<TiktokProfilScreen> {
             children: [
               const CircleAvatar(
                 radius: 50,
-                backgroundImage: AssetImage('assets/itachi.jpg'),
+                backgroundImage: AssetImage('assets/profilrizky.jpg'),
               ),
               Positioned(
                 right: 0,
@@ -100,7 +100,7 @@ class _TiktokProfilScreenState extends State<TiktokProfilScreen> {
           ),
           const SizedBox(height: 10),
           Text(
-            "@Hawi",
+            "@Dvatama",
             style: TextStyle(
               color: isDarkMode ? Colors.white : Colors.black,
               fontSize: 18,
@@ -108,7 +108,7 @@ class _TiktokProfilScreenState extends State<TiktokProfilScreen> {
             ),
           ),
           Text(
-            "HawiAnugrah",
+            "Rizky Ardiva Dwitama P",
             style: TextStyle(
               color: isDarkMode ? Colors.white : Colors.black,
               fontSize: 14,
@@ -118,11 +118,11 @@ class _TiktokProfilScreenState extends State<TiktokProfilScreen> {
           Row(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              _StatColumn(label: "Followers", value: "1k", isDarkMode: isDarkMode),
+              _StatColumn(label: "Followers", value: "5k", isDarkMode: isDarkMode),
               const SizedBox(width: 20),
-              _StatColumn(label: "Following", value: "100", isDarkMode: isDarkMode),
+              _StatColumn(label: "Following", value: "130", isDarkMode: isDarkMode),
               const SizedBox(width: 20),
-              _StatColumn(label: "Likes", value: "100k", isDarkMode: isDarkMode),
+              _StatColumn(label: "Likes", value: "160k", isDarkMode: isDarkMode),
             ],
           ),
           const SizedBox(height: 20),
